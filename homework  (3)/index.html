@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>Homework 3</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  
+  <h1>mailto</h1>
+  <h2>Thanks</h2>
+  
+  <div class="text">
+    <p>Hey Vladimir,</p>
+    <p>Lorem ipsum <span>dolor sit amet</span>, consectetur adipisicing elit. Quas facilis totam deleniti, minima voluptas explicabo praesentium aut corporis numquam et, necessitatibus unde <span>distinctio voluptatibus , doloremque quaerat!</span></p>
+    <p>Lorem ipsum dolor sit amet, consectetur <span>adipisicing elit</span>.</p>
+  </div>
+  
+  <table class="table-order">
+      <thead>
+        <tr>
+          <th>Order Number</th>
+          <th>Order date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td >U567899877</td>
+          <td>17 January 2017</td>
+        </tr>
+      </tbody>
+  </table>
+
+  <table class="table-order">
+    <thead>
+      <tr>
+        <th>Shippimg Address </td>
+        <th>Billing Address</td>
+      </th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Vladimir Rudinov<br>
+            340 Main St. STE. 680,<br>
+            Venice, CA 90291
+        </td>
+        <td>Vladimir Rudinov<br>
+          340 Main St. STE. 680,<br>
+          Venice, CA 90291
+       </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="table-item">
+    <caption><b>Here's what you ordered:</b></caption>
+    <thead>
+      <tr>
+        <th colspan="3">Item</th>
+        <th class="text_right">Qty</th>
+        <th class="text_right">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <div class="table-item_img" style="background-image: url(cakes/5.jpg)"></div>
+        </td>
+        <td colspan="2">
+         <p><b>Yanagi Tea Kettle</b></p>
+         <p>Sori Yanagi</p> 
+         <p>Medium</p>
+        </td>
+        <td class="td-right">1</td>
+        <td class="td-right">$49</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="table-item_img" style="background-image: url(cakes/6.jpg)"></div>
+        </td>
+        <td colspan="2">
+          <p><b>Yanagi Tea Kettle</b></p> 
+          <p>Medium</p>
+        </td>
+        <td class="td-right">1</td>
+        <td class="td-right">$49</td>
+      </tr>
+      <tr>
+        <td class="td-right summary" colspan="5">
+          <p>Subtotal: $78 </p>
+          <p>Shipping: $5</p>
+          <p>Tax: $0</p>
+        </td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td class="td-right summary" colspan="5">TOTAL: $83</td>
+      </tr>
+    </tfoot>
+  </table>      
+    
+  <!--Таблица в таблице -->
+
+  <table class="table-trend">
+    <caption>Trending products</caption>
+    <tr>
+      <td>
+        <div class="table-trend_img" style="background-image: url(cakes/1.jpg);"></div>
+        <table class="table-info">
+          <tr>
+            <td><b>Yanagi Tea Kettle</b></td>
+            <td class="text_right">$49</td>
+          </tr> 
+        </table>
+        <p>Medium</p>
+      </td>
+      <td>
+        <div class="table-trend_img" style="background-image: url(cakes/2.jpg);"></div>
+        <table class="table-info">
+          <tr>
+            <td><b>Oak Tray </b></td>
+            <td class="text_right">$136</td>
+          </tr> 
+        </table>
+        <p>Hasami porcelain</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="table-trend_img" style="background-image: url(cakes/3.jpg);"></div>
+        <table class="table-info">
+          <tr>
+            <td colspan="2"><b>Yanagi Tea Kettle</b></td>
+            <td class="text_right">$49</td>
+        </tr> 
+        </table>
+        <p>Medium</p>
+      </td>
+      <td>
+        <div class="table-trend_img" style="background-image: url(cakes/4.jpg);"></div>
+        <table class="table-info">
+          <tr>
+            <td><b>Oak Tray </b></td>
+            <td class="text_right">$136</td>
+          </tr> 
+        </table>
+        <p>Hasami porcelain</p>
+      </td>
+    </tr>
+  </table>
+
+  <a href="#">Back to Shop</a>
+
+ </div>
+
+</body>
+</html>
