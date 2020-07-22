@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <title>Homework 8-10, Hillel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="first-slide">
+
+      <header class="header">
+        <div class="wrapper nav-flex">
+
+          <nav class="nav-flex">
+
+              <div class="menu">
+                <a href="#" class="active">КИЕВ</a>
+                <div class="submenu">
+                  <a href="#">О школе</a>
+                  <a href="#">Преподаватели</a>
+                  <a href="#">Стать преподавателем</a>
+                  <a href="#">Отзывы</a>
+                  <a href="#" class="heart">Проверка сертификата</a>
+                </div>
+
+              </div>
+
+<!--
+                <ul class="submenu">
+                  <li><a href="#">О школе</a></li>
+                  <li><a href="#">Преподаватели</a></li>
+                  <li><a href="#">Стать преподавателем</a></li>
+                  <li><a href="#">Отзывы</a></li>
+                  <li><a href="#">Проверка сертификата</a></li>
+                </ul>
+-->
+                
+              <a href="#">ОДЕССА</a>
+              <a href="#">ДНЕПР</a>
+              <a href="#">ХАРЬКОВ</a>
+              <a class="online" href="#">online</a>
+          </nav>
+
+          <nav class="nav-flex">
+              <a href="#"><img src="images/phone-call.svg" alt="phone-call">+38 (093) 543 77 47</a>
+              <a href="#"><img src="images/email.svg" alt="email">kyiv@ithillel@gmail.com</a>
+          </nav>
+
+          <nav class="nav-flex">
+              <a href="#" class="active">РУС</a>
+              <a href="#">УКР</a>
+          </nav>
+
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="wrapper">
+          
+          <div class="main_flex">
+            <div>
+              <img src="images/Vector.svg" width="369" alt="logo">
+              <h1>Учись ради мечты!</h1>
+              <hr>
+              <button type="button" class="btn">Записаться на курс</button>
+            </div>
+
+            <div>
+              <img src="images/map__ukraine.svg" alt="map ukraine" width="548" height="366">
+              <p class="map_kyiv">КИЕВ</p>
+              <p class="map_kharkiv">ХАРЬКОВ</p>
+              <p class="map_dnepr">ДНЕПР</p>
+              <p class="map_odesa">ОДЕССА</p>
+            </div>
+          </div>
+
+          <div class="block">
+
+            <div class="main_flex first-line">
+              <div class="main_flex">
+                <img src="images/raket.svg" alt="">
+                <p>12000</p>
+                <span>+</span>
+                <p>Выпускников<br>Школы</p>
+              </div>
+              <div class="main_flex">
+                <img src="images/raket.svg" alt="">
+                <p>12000</p>
+                <p>Выпускников Школы</p>
+              </div>
+            </div>
+
+            <div class="main_flex second-line">
+
+              <div class="main_flex second-line_block">
+                <img src="images/raket.svg" alt="">
+                <div class="info">
+                  <p>7</p>
+                  <span class="year">лет</span>
+                  <p>Школа предоставляет образовательные услуги</p>
+                </div> 
+              </div>
+               
+              <div class="main_flex second-line_block">
+                <img src="images/raket.svg" alt="">
+                <div class="info">
+                  <p>7</p>
+                  <span class="plus">+</span>
+                  <p>Школа предоставляет образовательные услуги</p>
+                </div>
+              </div>
+
+              <div class="main_flex second-line_block">
+                <img src="images/raket.svg" alt="">
+                <div class="info">
+                  <p>7</p>
+                  <span class="year">лет</span>
+                  <p>Школа предоставляет образовательные услуги</p>
+                </div> 
+              </div>
+               
+              <div class="main_flex second-line_block">
+                <img src="images/raket.svg" alt="">
+                <div class="info">
+                  <p>7</p>
+                  <span class="plus">+</span>
+                  <p>Школа предоставляет образовательные услуги</p>
+                </div>
+              </div>
+
+              <div class="main_flex second-line_block">
+                <img src="images/raket.svg" alt="">
+                <div class="info">
+                  <p>7</p>
+                  <span class="year">лет</span>
+                  <p>Школа предоставляет образовательные услуги</p>
+                </div> 
+              </div>
+               
+              <div class="main_flex second-line_block">
+                <img src="images/raket.svg" alt="">
+                <div class="info">
+                  <p>7</p>
+                  <span class="plus">+</span>
+                  <p>Школа предоставляет образовательные услуги</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </main>
+
+    </div>
+    
+
+    <form class="modal">
+      <div class="modal_header">
+        <h2>Заявка на регистрацию</h2>
+        <span class="modal_close">X</span>
+        <p>Оставьте ваши контактные данные, и мы вам обязательно перезвоним!</p>
+      </div>
+
+      <div class="modal_body">
+       <!-- 
+        <div class="form_label">
+          <label>Имя*
+            <input type="text" placeholder="Марк">
+          </label>
+        </div>
+       -->
+
+        <div class="form_label">
+          <input type="text" id="name" placeholder="Марк" required>
+          <label for="name">Имя*</label>
+        </div>
+
+        <div class="form_label">
+          <input type="email" id="email" placeholder="mark@gmail.com" name="email" required>
+          <label for="email">Email*</label>
+        </div>
+          
+        <div class="form_label">
+          <input type="tel" id="phone" placeholder="+38 (ххх) ххх-хх-хх">
+          <label for="phone">Телефон</label>
+        </div>
+
+        <div class="form_label">
+          <select name="" id="city" required>
+            <option value="Киев" selected>Киев</option>
+            <option value="">2</option>
+            <option value="">1</option>
+          </select>
+          <label for="city">Город*</label>
+        </div>
+        <div class="form_label">
+          <select name="" id="course" required>
+            <option value="" selected disabled>Выберите</option>
+            <option value="2">second</option>
+            <option value="">3</option>
+            <option value="">4</option>
+          </select>
+          <label for="course" >Курс*</label>
+       </div>
+        
+      </div>  
+      
+      <div class="modal_footer">
+        <button type="submit" class="modal_btn">ОСТАВИТЬ ЗАЯВКУ</button>
+        <!-- disabled = pointer-events: none;-->
+      </div>
+      
+    </form>
+
+  </div>
+
+</body>
+</html>
