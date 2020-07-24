@@ -1,0 +1,39 @@
+.row{
+  background: pink;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.row >*{
+  border: 1px solid transparent;
+  padding: 10px;
+}
+
+.row .row{
+  margin: 0 -10px 10px;
+}
+
+.col{
+  background: rgba(149, 123, 190, 0.3);
+  border-color: #957bbe;
+}
+
+.col-sm{
+  background:  rgba(128, 255, 167, 0.76);
+  border-color: rgba(86, 216, 126, 0.9);
+}
+
+.col-md{
+  background: rgba(128, 189, 255, 0.76);
+  border-color: rgba(95, 158, 226, 0.76);
+}
+
+.col-lg{
+  background: rgba(255, 128, 128, 0.76);
+  border-color: rgba(224, 89, 89, 0.76);
+}
+
+.col-xl{
+  background: rgba(255, 251, 128, 0.76);
+  border-color: rgba(241, 236, 79, 0.76);
+}
