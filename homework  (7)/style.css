@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+}
+
+.container{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.block1{
+  width: 70.5px;
+  height: 70.5px;
+  background: violet;
+  float: left;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.block2{
+  width: 147px;
+  height: 70.5px;
+  background: green;
+  float: left;
+  margin-bottom: 6px;
+}
+
+.block3{
+  width: 70.5px;
+  height: 147px;
+  background: coral;
+  float: right;
+  margin-left: 6px;
+}
+
+.block4{
+  width: 70.5px;
+  height: 223.5px;
+  background: blue;
+  float: left;
+  margin-right: 6px;
+}
+
+.block5{
+  width: 70.5px;
+  height: 147px;
+  background: coral;
+  float: left;
+  margin-right: 6px;
+}
+
+.block6{
+  width: 70.5px;
+  height: 70.5px;
+  background: yellow;
+  float: left;
+}
+
+.block7{
+  width: 147px;
+  height: 70.5px;
+  background: green;
+  float: left;
+  margin-top: 6px;
+}
+
+.block8{
+  width: 223.5px;
+  height: 70.5px;
+  background: blue;
+  float: left;
+  margin-top: 6px;
+}
