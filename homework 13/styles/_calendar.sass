@@ -1,0 +1,33 @@
+.calendar_block
+  padding: 10px 15px 10px 40px
+  border-left: 5px solid transparent
+  border-radius: $border-radius
+
+  &:nth-of-type(1)
+    background: #fbe3e9
+    border-color: $color-pink
+
+  &:nth-of-type(2)
+    background: #fff0dc
+    border-color: $color-orange
+    margin: 20px 0
+
+  &:nth-of-type(3)
+    background: #eae3f1
+    border-color: $color-violet
+
+  p:nth-of-type(1)
+    color: $color-black
+
+  p:nth-of-type(3)
+    text-transform: uppercase
+    font-size: 12px
+
+  &:nth-of-type(1) p:nth-of-type(3)
+      color: $color-pink
+
+  &:nth-of-type(2) p:nth-of-type(3)
+      color: $color-orange
+
+  &:nth-of-type(3) p:nth-of-type(3)
+      color: $color-violet
