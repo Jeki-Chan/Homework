@@ -1,0 +1,89 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0; }
+
+h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #aaa3c7;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin: 20px 0; }
+
+.container {
+  margin: 0 auto;
+  width: 300px;
+  background: #fbfaff;
+  border-radius: 8px;
+  padding: 5px 30px 15px;
+  color: #9f9f9f;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.3px; }
+
+.menu {
+  margin-bottom: 10px; }
+  .menu a {
+    color: #9f9f9f;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block; }
+  .menu a:hover {
+    color: #616060; }
+
+.fab {
+  margin-right: 10px; }
+
+.categories {
+  border-top: 1px solid #ebe8f5;
+  border-bottom: 1px solid #ebe8f5;
+  padding-bottom: 15px; }
+  .categories_block {
+    display: inline-block;
+    width: 140px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 9px; }
+    .categories_block:nth-of-type(1) {
+      background: #b88ae2;
+      margin-bottom: 10px;
+      margin-right: 10px; }
+    .categories_block:nth-of-type(2) {
+      background: #ffa793; }
+    .categories_block:nth-of-type(3) {
+      background: #f98da4;
+      margin-right: 10px; }
+    .categories_block:nth-of-type(4) {
+      background: #ffbe82; }
+
+.calendar_block {
+  padding: 10px 15px 10px 40px;
+  border-left: 5px solid transparent;
+  border-radius: 8px; }
+  .calendar_block:nth-of-type(1) {
+    background: #fbe3e9;
+    border-color: #f98da4; }
+  .calendar_block:nth-of-type(2) {
+    background: #fff0dc;
+    border-color: #ffbe82;
+    margin: 20px 0; }
+  .calendar_block:nth-of-type(3) {
+    background: #eae3f1;
+    border-color: #b88ae2; }
+  .calendar_block p:nth-of-type(1) {
+    color: #616060; }
+  .calendar_block p:nth-of-type(3) {
+    text-transform: uppercase;
+    font-size: 12px; }
+  .calendar_block:nth-of-type(1) p:nth-of-type(3) {
+    color: #f98da4; }
+  .calendar_block:nth-of-type(2) p:nth-of-type(3) {
+    color: #ffbe82; }
+  .calendar_block:nth-of-type(3) p:nth-of-type(3) {
+    color: #b88ae2; }
+
+/*# sourceMappingURL=style.css.map */

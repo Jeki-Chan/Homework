@@ -1,0 +1,14 @@
+body {
+  background: #E5E5E5; }
+
+.container {
+  width: 1440px;
+  height: 850px; }
+
+h1 {
+  font-size: 25px; }
+
+.header__button {
+  background: blue; }
+
+/*# sourceMappingURL=style.css.map */

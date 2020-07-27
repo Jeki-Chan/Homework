@@ -1,0 +1,44 @@
+$padding: 30px
+$color-blue: #1686df
+$color-darkblue: #3636cf
+$color-red: #d13838
+$width-star: 15px
+
+@function generateStar($number-star)
+  @return $width-star*$number-star
+
+=styleBlock($color, $borderColor, $number-star)
+  color: $color
+  border-color: $borderColor
+  .star
+    width: generateStar($number-star)
+
+=Country($name)
+  @if $name == argentina
+    .images
+      background: url("../images/argentina.svg")
+    +styleBlock($color-blue, $color-darkblue, 1)
+
+  @else if $name == brazil
+    .images
+      background: url("../images/brazil.svg")
+    +styleBlock(#4caf50, $color-red, 2)
+
+  @else if $name ==  canada
+    .images
+      background: url("../images/canada.svg")
+    +styleBlock($color-red, $color-red, 3)
+
+  @else if $name == netherlands
+    .images
+      background: url("../images/netherlands.svg")
+    +styleBlock($color-darkblue, $color-red, 4)
+
+  @else if $name == spain
+    .images
+      background: url("../images/spain.svg")
+    +styleBlock(#ffc107, $color-darkblue, 5)
+p
+  text-transform: uppercase
+  font-weight: bold
+
