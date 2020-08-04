@@ -13,14 +13,15 @@
 
     <header class="header">
       <h1>Dashboard</h1>
-      <form class="header__filters" action="">
+      <div class="header__filters">
         <label>Filter:</label>
         <select name="" id="">
           <option value="1">Shared domains</option>
           <option value="2">Shared domains2</option>
+          
         </select>
-        <button class="header__button" type="button">+</button>
-      </form>      
+      </div>
+      <button class="header__button" type="button">+</button>
     </header>
 
     <main class="main main__iner">
@@ -33,51 +34,38 @@
           <i class="fas fa-trash-alt"></i>
         </div>
       </div>
-
       <div class="main__second-line">
         <div class="website-score">
           <h4>Website Score</h4>
-          <span>80<span class="website-score_persent">%</span></span><span class="error">4%</span>
-          <div class="flex-grid">
-            <span class="error">Errors</span><span>22</span><span class="error">12</span>
-            <span class="warnings">Warnings</span><span>15</span><span class="normal">15</span>
-            <span class="">Notices</span><span>13</span><span class="error">13</span>
-          </div>
+          <span>80<span class="website-score_persent">%</span></span>
+          <span>Errors</span><span>22</span>
+          <span>Warnings</span><span>15</span>
+          <span>Notices</span><span>13</span>
         </div>
-
         <div class="rankings">
           <h4>Rankings</h4>
-          <div class="flex-grid">
-            <span>Rank #1-3</span><span>10</span><span class="error">12</span>
-            <span>Rank #4-10</span><span>23</span><span class="normal">15</span>
-            <span>Rank #11-100</span><span>47</span><span class="error">13</span>
-            <span>Non in top 100</span><span>3</span><span class="error">14</span>
-          </div>
+          <span>Rank #1-3</span><span>10</span>
+          <span>Rank #4-10</span><span>23</span>
+          <span>Rank #11-100</span><span>47</span>
+          <span>Non in top 100</span><span>3</span>
           <div class="diagram">
             <canvas id="myChart" height="50px">
           </div>
         </div>
-
         <div class="last-changes">
           <h4>Last Changes</h4>
           <span class="last-changes_date">Wednesday, April 24</span>
-          <div>
-            <span>Founded<span>11</span>orphan pages</span>
-            <span>Description has changed:<span>2</span></span>
-            <span>H1 has changed:<span>3</span></span>
-            <span>Added<span>14</span>new pages</span>
-          </div>
-
+          <span>Founded<span>11</span>orphan pages</span>
+          <span>Description has changed:<span>2</span></span>
+          <span>H1 has changed:<span>3</span></span>
+          <span>Added<span>14</span>new pages</span>
         </div>
-
         <div class="traffic">
           <h4>Traffic</h4>
-          <div class="flex-grid">
-            <span>All traffic:</span><span>192 561</span><span class="normal">2%</span>
-            <span>Organic traffic:</span><span>121 003</span><span class="error">3%</span>
-          </div>
+          <span>All traffic</span><span>192 561</span>
+          <span>Organic traffic</span><span>121 003</span>
           <div class="diagram">
-            <canvas id="myChart--2" height="85px">
+            <canvas id="myChart--2" height="50px">
           </div>
         </div>
       </div>
