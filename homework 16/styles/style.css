@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -158,7 +159,7 @@ a span {
 .error {
   color: #DD4C3A; }
   .error::before {
-    content: ">"; }
+    content: "▼"; }
 
 .warnings {
   color: #F18F1C; }
@@ -166,7 +167,7 @@ a span {
 .normal {
   color: #2ED47A; }
   .normal::before {
-    content: "^"; }
+    content: "▲"; }
 
 @media (max-width: 1089px) {
   .container {
